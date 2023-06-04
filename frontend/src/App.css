@@ -2,37 +2,43 @@
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
 }
 
 .form-group {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 label {
   display: block;
   margin-bottom: 5px;
+  font-weight: bold;
 }
 
-.form-control {
+input[type="text"] {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-.btn {
+.btn-primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
   background-color: #007bff;
   color: #fff;
-  padding: 8px 16px;
-  border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.btn-primary {
-  background-color: #007bff;
-}
-
-.btn-primary:hover {
-  background-color: #0056b3;
+.message {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  color: #155724;
 }
